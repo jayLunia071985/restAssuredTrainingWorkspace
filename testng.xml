@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd"> -->
+<suite name="TrainingSuite">
+  <test thread-count="5" name="TrainingTest">
+    <classes>
+      <class name="day7_AuthenticationAuthorisation.Authentication"/>
+      <class name="day5_ValidateXMLResponse.ValidateStaticXMLResponse"/>
+      <class name="day7_AuthenticationAuthorisation.FakerDataGenerator"/>
+      <class name="day2.DifferentWaysToCreatePostRequestBody"/>
+      <class name="day4_ValidatingJSONResponse.ValidateJsonResonseforParticularFieldValueUsingJSONObject"/>
+      <class name="day8_Chaining.ChainingDeleteUser"/>
+      <class name="day8_Chaining.ChainingCreateUser"/>
+      <class name="day3_pathParameter_and_queryParameter.LogDemo"/>
+      <class name="day4_ValidatingJSONResponse.ValidateJsonResponse"/>
+      <class name="day3_pathParameter_and_queryParameter.HowToFetchResponseParameter"/>
+      <class name="day5_ValidateXMLResponse.ValidateDynamicXMLResponseBySavingResponseIntoParameter"/>
+      <class name="day6_JSONXMLSchemaValidation_SerialisationDeserialisation.XmlSchemaValidation"/>
+      <class name="day8_Chaining.ChainingGetUser"/>
+      <class name="day4_ValidatingJSONResponse.ValidateJsonResonseforParticularFieldValueUsingJSONObjectAndExtJSONFile"/>
+      <class name="day3_pathParameter_and_queryParameter.HowToFetchResponseParameterAndCompareUsingIf"/>
+      <class name="day6_JSONXMLSchemaValidation_SerialisationDeserialisation.JSONSchemaValidation"/>
+      <class name="day1.HttpRequest"/>
+      <class name="day8_Chaining.ChainingUpdateUser"/>
+      <class name="day4_ValidatingJSONResponse.ValidateJsonResonseUsingTestNGAssertion"/>
+      <class name="day3_pathParameter_and_queryParameter.PathAndQueryParameters"/>
+      <class name="day6_JSONXMLSchemaValidation_SerialisationDeserialisation.SerialisationDeserialisation"/>
+      <class name="day3_pathParameter_and_queryParameter.CookiesAndHeaders"/>
+    </classes>
+  </test> <!-- TrainingTest -->
+</suite> <!-- TrainingSuite -->

@@ -1,0 +1,874 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "page": {
+      "type": "integer"
+    },
+    "per_page": {
+      "type": "integer"
+    },
+    "totalrecord": {
+      "type": "integer"
+    },
+    "total_pages": {
+      "type": "integer"
+    },
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "title": {
+              "type": "null"
+            },
+            "description": {
+              "type": "string"
+            },
+            "location": {
+              "type": "string"
+            },
+            "multiMedia": {
+              "type": "array",
+              "items": {}
+            },
+            "createdat": {
+              "type": "string"
+            },
+            "user": {
+              "type": "object",
+              "properties": {
+                "userid": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "profilepicture": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "userid",
+                "name",
+                "profilepicture"
+              ]
+            },
+            "commentCount": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "description",
+            "location",
+            "multiMedia",
+            "createdat",
+            "user",
+            "commentCount"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "title": {
+              "type": "null"
+            },
+            "description": {
+              "type": "string"
+            },
+            "location": {
+              "type": "string"
+            },
+            "multiMedia": {
+              "type": "array",
+              "items": {}
+            },
+            "createdat": {
+              "type": "string"
+            },
+            "user": {
+              "type": "object",
+              "properties": {
+                "userid": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "profilepicture": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "userid",
+                "name",
+                "profilepicture"
+              ]
+            },
+            "commentCount": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "description",
+            "location",
+            "multiMedia",
+            "createdat",
+            "user",
+            "commentCount"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "location": {
+              "type": "string"
+            },
+            "multiMedia": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "null"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "null"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "createat": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "name",
+                    "description",
+                    "url",
+                    "createat"
+                  ]
+                }
+              ]
+            },
+            "createdat": {
+              "type": "string"
+            },
+            "user": {
+              "type": "object",
+              "properties": {
+                "userid": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "profilepicture": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "userid",
+                "name",
+                "profilepicture"
+              ]
+            },
+            "commentCount": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "description",
+            "location",
+            "multiMedia",
+            "createdat",
+            "user",
+            "commentCount"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "location": {
+              "type": "string"
+            },
+            "multiMedia": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "null"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "null"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "createat": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "name",
+                    "description",
+                    "url",
+                    "createat"
+                  ]
+                }
+              ]
+            },
+            "createdat": {
+              "type": "string"
+            },
+            "user": {
+              "type": "object",
+              "properties": {
+                "userid": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "profilepicture": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "userid",
+                "name",
+                "profilepicture"
+              ]
+            },
+            "commentCount": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "description",
+            "location",
+            "multiMedia",
+            "createdat",
+            "user",
+            "commentCount"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "title": {
+              "type": "null"
+            },
+            "description": {
+              "type": "string"
+            },
+            "location": {
+              "type": "string"
+            },
+            "multiMedia": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "null"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "null"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "createat": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "name",
+                    "description",
+                    "url",
+                    "createat"
+                  ]
+                }
+              ]
+            },
+            "createdat": {
+              "type": "string"
+            },
+            "user": {
+              "type": "object",
+              "properties": {
+                "userid": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "profilepicture": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "userid",
+                "name",
+                "profilepicture"
+              ]
+            },
+            "commentCount": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "description",
+            "location",
+            "multiMedia",
+            "createdat",
+            "user",
+            "commentCount"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "title": {
+              "type": "null"
+            },
+            "description": {
+              "type": "string"
+            },
+            "location": {
+              "type": "string"
+            },
+            "multiMedia": {
+              "type": "array",
+              "items": {}
+            },
+            "createdat": {
+              "type": "string"
+            },
+            "user": {
+              "type": "object",
+              "properties": {
+                "userid": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "profilepicture": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "userid",
+                "name",
+                "profilepicture"
+              ]
+            },
+            "commentCount": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "description",
+            "location",
+            "multiMedia",
+            "createdat",
+            "user",
+            "commentCount"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "title": {
+              "type": "null"
+            },
+            "description": {
+              "type": "string"
+            },
+            "location": {
+              "type": "string"
+            },
+            "multiMedia": {
+              "type": "array",
+              "items": {}
+            },
+            "createdat": {
+              "type": "string"
+            },
+            "user": {
+              "type": "object",
+              "properties": {
+                "userid": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "profilepicture": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "userid",
+                "name",
+                "profilepicture"
+              ]
+            },
+            "commentCount": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "description",
+            "location",
+            "multiMedia",
+            "createdat",
+            "user",
+            "commentCount"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "null"
+            },
+            "location": {
+              "type": "string"
+            },
+            "multiMedia": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "null"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "null"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "createat": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "name",
+                    "description",
+                    "url",
+                    "createat"
+                  ]
+                }
+              ]
+            },
+            "createdat": {
+              "type": "string"
+            },
+            "user": {
+              "type": "object",
+              "properties": {
+                "userid": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "profilepicture": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "userid",
+                "name",
+                "profilepicture"
+              ]
+            },
+            "commentCount": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "description",
+            "location",
+            "multiMedia",
+            "createdat",
+            "user",
+            "commentCount"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "title": {
+              "type": "null"
+            },
+            "description": {
+              "type": "string"
+            },
+            "location": {
+              "type": "string"
+            },
+            "multiMedia": {
+              "type": "array",
+              "items": {}
+            },
+            "createdat": {
+              "type": "string"
+            },
+            "user": {
+              "type": "object",
+              "properties": {
+                "userid": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "profilepicture": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "userid",
+                "name",
+                "profilepicture"
+              ]
+            },
+            "commentCount": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "description",
+            "location",
+            "multiMedia",
+            "createdat",
+            "user",
+            "commentCount"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "id": {
+              "type": "integer"
+            },
+            "title": {
+              "type": "string"
+            },
+            "description": {
+              "type": "string"
+            },
+            "location": {
+              "type": "string"
+            },
+            "multiMedia": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "null"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "null"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "createat": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "name",
+                    "description",
+                    "url",
+                    "createat"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "null"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "null"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "createat": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "name",
+                    "description",
+                    "url",
+                    "createat"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "null"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "null"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "createat": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "name",
+                    "description",
+                    "url",
+                    "createat"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "null"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "null"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "createat": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "name",
+                    "description",
+                    "url",
+                    "createat"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "title": {
+                      "type": "null"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "description": {
+                      "type": "null"
+                    },
+                    "url": {
+                      "type": "string"
+                    },
+                    "createat": {
+                      "type": "string"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "title",
+                    "name",
+                    "description",
+                    "url",
+                    "createat"
+                  ]
+                }
+              ]
+            },
+            "createdat": {
+              "type": "string"
+            },
+            "user": {
+              "type": "object",
+              "properties": {
+                "userid": {
+                  "type": "integer"
+                },
+                "name": {
+                  "type": "string"
+                },
+                "profilepicture": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "userid",
+                "name",
+                "profilepicture"
+              ]
+            },
+            "commentCount": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "id",
+            "title",
+            "description",
+            "location",
+            "multiMedia",
+            "createdat",
+            "user",
+            "commentCount"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "page",
+    "per_page",
+    "totalrecord",
+    "total_pages",
+    "data"
+  ]
+}

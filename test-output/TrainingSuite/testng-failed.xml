@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TrainingSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TrainingTest(failed)">
+    <classes>
+      <class name="day2.DifferentWaysToCreatePostRequestBody">
+        <methods>
+          <include name="postUsingHashMap"/>
+          <include name="postUsingExternalJSONFile"/>
+          <include name="postUsingOrgJSON"/>
+          <include name="postUsingPOJO"/>
+          <include name="postUsingJavaPropertiesFile"/>
+        </methods>
+      </class> <!-- day2.DifferentWaysToCreatePostRequestBody -->
+      <class name="day4_ValidatingJSONResponse.ValidateJsonResonseforParticularFieldValueUsingJSONObject">
+        <methods>
+          <include name="testJsonResponseforParticularFieldValue"/>
+        </methods>
+      </class> <!-- day4_ValidatingJSONResponse.ValidateJsonResonseforParticularFieldValueUsingJSONObject -->
+      <class name="day3_pathParameter_and_queryParameter.HowToFetchResponseParameter">
+        <methods>
+          <include name="testToFetchResponseParameter"/>
+        </methods>
+      </class> <!-- day3_pathParameter_and_queryParameter.HowToFetchResponseParameter -->
+      <class name="day1.HttpRequest">
+        <methods>
+          <include name="deleteUser"/>
+          <include name="getUser"/>
+          <include name="createUser"/>
+          <include name="updateUser"/>
+        </methods>
+      </class> <!-- day1.HttpRequest -->
+      <class name="day4_ValidatingJSONResponse.ValidateJsonResponse">
+        <methods>
+          <include name="testJSONResponse"/>
+        </methods>
+      </class> <!-- day4_ValidatingJSONResponse.ValidateJsonResponse -->
+      <class name="day8_Chaining.ChainingDeleteUser">
+        <methods>
+          <include name="deleteUser" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- day8_Chaining.ChainingDeleteUser -->
+      <class name="day7_AuthenticationAuthorisation.Authentication">
+        <methods>
+          <include name="testAPIKey"/>
+        </methods>
+      </class> <!-- day7_AuthenticationAuthorisation.Authentication -->
+      <class name="day4_ValidatingJSONResponse.ValidateJsonResonseUsingTestNGAssertion">
+        <methods>
+          <include name="testJsonResonseUsingTestNGAssertion"/>
+        </methods>
+      </class> <!-- day4_ValidatingJSONResponse.ValidateJsonResonseUsingTestNGAssertion -->
+      <class name="day3_pathParameter_and_queryParameter.PathAndQueryParameters">
+        <methods>
+          <include name="testQueryAndPathParameters"/>
+        </methods>
+      </class> <!-- day3_pathParameter_and_queryParameter.PathAndQueryParameters -->
+      <class name="day3_pathParameter_and_queryParameter.HowToFetchResponseParameterAndCompareUsingIf">
+        <methods>
+          <include name="testJSONResponse"/>
+        </methods>
+      </class> <!-- day3_pathParameter_and_queryParameter.HowToFetchResponseParameterAndCompareUsingIf -->
+      <class name="day3_pathParameter_and_queryParameter.LogDemo">
+        <methods>
+          <include name="getUser"/>
+        </methods>
+      </class> <!-- day3_pathParameter_and_queryParameter.LogDemo -->
+      <class name="day5_ValidateXMLResponse.ValidateStaticXMLResponse">
+        <methods>
+          <include name="testStaticXMLResponseUsingFreeSwaggerAPI"/>
+        </methods>
+      </class> <!-- day5_ValidateXMLResponse.ValidateStaticXMLResponse -->
+    </classes>
+  </test> <!-- TrainingTest(failed) -->
+</suite> <!-- Failed suite [TrainingSuite] -->

@@ -1,0 +1,24 @@
+{
+	"books": [
+		  {
+		    "postId": "1",
+		    "body": "Added Via HashMap1",
+		    "id": 1
+		  },
+		  {
+		    "postId": "2",
+		    "body": "Added Via HashMap2",
+		    "id": 2
+		  },
+		  {
+		    "postId": "3",
+		    "body": "Added Via HashMap3",
+		    "id": 3
+		  },
+		  {
+		    "postId": "4",
+		    "body": "Added Via HashMap4",
+		    "id": 4
+		  }
+	  ]
+}
